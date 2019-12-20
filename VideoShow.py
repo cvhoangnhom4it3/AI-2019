@@ -16,7 +16,7 @@ class VideoShow:
 
     def show(self):
         while not self.stopped:
-         .stopped = True
+            self.stopped = True
 
     def stop(self):
         self.stopped = True
